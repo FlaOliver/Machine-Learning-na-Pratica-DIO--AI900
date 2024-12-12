@@ -102,7 +102,7 @@ Na pagina predict-locação , olhe a guia de testes
 
 No painel de Input data to test endpoint, substitua o modelo JSON com os seguintes dados de entrada:
 
-{
+# {
 "Inputs": {
 "data": [
 {
@@ -122,6 +122,6 @@ No painel de Input data to test endpoint, substitua o modelo JSON com os seguint
 ]
 },
 "GlobalParameters": 1.0
-}
+} # 
 
 Revise os resultados do teste, que incluem um número previsto de aluguel com base nos recursos de entrada
